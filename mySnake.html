@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Snake Pratice</title>
+    <link rel="stylesheet" href="mySnake.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body onkeypress="keyFunction(event)">
+    <header>
+        <button id="btnS" onclick="pressS()">START or keyboard"t"</button>
+        <button onclick="pauseSnake()">PAUSE or keyboard"p"</button>
+        <div id="scoreDiv"><p>Score</p><p id="score">0</p></div>
+    </header>
+    <p id="intro">'w' : move up. 's' : move down. 'a' : move left. 'd' : move right.</p>
+    <div class="wallClass" id="workArea">
+        <p id="demo"></p>
+        <div id="gameOver"></div>
+        <div id="snakeHead"></div>
+        <div id="food"></div>
+    </div>
+<script src="mySnake.js"></script>
+</body>
+</html>
