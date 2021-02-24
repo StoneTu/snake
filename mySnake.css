@@ -3,12 +3,13 @@ body {
 }
 header {
     display: grid;
-    grid-template-columns: 33% 33% 34%;
+    /* grid-template-columns: 33% 33% 34%; */
+    grid-template-columns: 150px 150px 150px;
     background-color: goldenrod;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 450px;
     height: 120px;
     text-align: center;
 }
